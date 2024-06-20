@@ -1,0 +1,13 @@
+#spring.application.name=Advertiser
+
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:file:D:\\java-heilbron\\javaServer\\database\\dataAdvertiser\\test;DB_CLOSE_ON_EXIT=FALSE
+spring.jpa.hibernate.ddl-auto=update
+
+#spring.datasource.url=jdbc:postgresql:/34.93.135.89:5433/mtt_04_dec_22
+
+
+# הגדרת הדיאלקט של Hibernate
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
